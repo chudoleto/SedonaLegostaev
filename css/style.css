@@ -1,0 +1,249 @@
+*{
+    font-family: 'PT Sans', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+}
+header{
+    width: 1280px;
+}
+
+main{
+    width: 1280px;
+}
+
+button{
+    text-transform: uppercase;
+}
+.top-menu{
+    display: flex;
+    width: 1200px;
+}
+
+.top-menu a{
+    color: #000000;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+}
+.top-menu a:nth-of-type(1),
+.top-menu a:nth-of-type(2),
+.top-menu a:nth-of-type(4),
+.top-menu a:nth-of-type(5) {
+    padding: 20px 30px 20px 0;
+}
+.top-menu a:nth-of-type(3){
+    margin: 0 0 0 530px;
+}
+
+.logo-head{
+    position: absolute;
+    width: 137px;
+    height: 70px;
+    background: url("../images/logo.png") center no-repeat;
+}
+.img-background{
+    width: 1200px;
+    height: 719px;
+    background: url("../images/backgroundphoto1.png") center no-repeat;
+    background-size: cover;
+}
+.intro-background{
+    position: absolute;
+    width: 1200px;
+    height: 60px;
+    margin:  450px 0 0 40px;
+    background: url("../images/introbackground.png") center no-repeat;
+}
+.intro{
+    position: absolute;
+    width: 1200px;
+    height: 210px;
+    margin:  509px 0 0 40px;
+    background: #ffffff;
+}
+.promo{
+    width: 576px;
+    height: 100px;
+    margin: 55px auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+.promo p{
+    margin: 17px 0 0 0;
+}
+.content-container-1{
+    width: 1200px;
+    display: flex;
+}
+.content-container-2{
+    width: 1200px;
+    display: flex;
+}
+
+.info-block{
+    width: 400px;
+    height: 256px;
+    background: #81b3d2;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+}
+.info-block h3{
+    margin: 48px 0 30px 0;
+}
+.info-block p{
+    margin: 30px 0 0 0;
+    color: #d5e6f0;
+}
+
+.info-block2{
+    width: 400px;
+    height: 256px;
+    background: #81b3d2;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+}
+.info-block2 h3{
+    margin: 48px 0 30px 0;
+}
+.info-block2 p{
+    margin: 30px 0 0 0;
+    color: #d5e6f0;
+}
+
+.img-block{
+    width: 800px;
+    height: 256px;
+    background: url("../images/imgblock1.png") center no-repeat;
+    background-size: cover;
+}
+.img-block2{
+    width: 800px;
+    height: 256px;
+    background: url("../images/imgblock2.png") center no-repeat;
+    background-size: cover;
+}
+.item-content1{
+    width: 400px;
+    height: 330px;
+    text-align: center;
+}
+.item-content1 p{
+    margin: 30px 0 0 0;
+}
+.icon-1{
+    width: 76px;
+    height: 76px;
+    margin: 60px auto 30px auto;
+    background: url("../images/icon1.png") center no-repeat;
+}
+.icon-2{
+    width: 76px;
+    height: 76px;
+    margin: 60px auto 30px auto;
+    background: url("../images/icon2.png") center no-repeat;
+}
+.icon-3{
+    width: 76px;
+    height: 76px;
+    margin: 60px auto 30px auto;
+    background: url("../images/icon3.png") center no-repeat;
+}
+.item-content2{
+    width: 400px;
+    height: 255px;
+    background: #eeeeee;
+    text-align: center;
+    text-transform: uppercase;
+}
+.item-content2 h3{
+    margin: 48px 0 30px 0;
+}
+.item-content2 p{
+    margin: 30px 0 0 0;
+}
+.container-search-hostels{
+    width: 1200px;
+    padding: 50px 0 0 0;
+}
+.hotels-search{
+    width: 576px;
+    height: 240px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.hotels-search h2{
+    margin: 0 0 38px 0;
+}
+.hotels-search p{
+    margin: 0 0 40px 0;
+}
+button.button-search{
+    width: 575px;
+    height: 90px;
+    background: #766357;
+    color: #ffffff;
+    font-size: 21px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+.map1{
+    height: 474px;
+}
+
+#map {
+    height: 100%;
+}
+
+footer{
+    position: relative;
+    width: 1280px;
+    background: #ffffff;
+}
+
+.footer-container{
+    display: flex;
+    width: 1200px;
+    height: 120px;
+}
+.visit{
+    width: 400px;
+    height: 120px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.visit h2{
+    margin: 50px 0 0 0;
+}
+.visit a{
+    margin: 40px 0 0 0;
+    text-decoration: none;
+}
+.twitter{
+    display: inline-block;
+    width: 43px;
+    height: 43px;
+    background: #81b3d2 url("../images/twitter.png") center no-repeat;
+}
+.facebook{
+    display: inline-block;
+    width: 43px;
+    height: 43px;
+    background: #81b3d2 url("../images/facebook.png") center no-repeat;
+}
+.youtube{
+    display: inline-block;
+    width: 43px;
+    height: 43px;
+    background: #81b3d2 url("../images/youtube.png") center no-repeat;
+}
+
+.logo{
+    width: 205px;
+    margin: 40px auto;
+}
+
