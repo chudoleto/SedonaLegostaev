@@ -172,6 +172,18 @@ button{
 .item-content4 p{
     margin: 30px 0 0 0;
 }
+
+.item-content2{
+    background: #eeeeee;
+    text-align: center;
+    text-transform: uppercase;
+}
+.item-content2 h3{
+    margin: 48px 0 30px 0;
+}
+.item-content2 p{
+    margin: 30px 0 0 0;
+}
 .container-search-hostels{
     width: 1200px;
     padding: 50px 0 0 0;
